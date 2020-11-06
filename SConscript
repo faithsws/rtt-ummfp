@@ -4,7 +4,7 @@ from building import *
 
 cwd     = GetCurrentDir()
 src     = Glob('dap_vfs.c') 
-src     = Glob('ummfp.c') 
+src     += Glob('ummfp.c') 
 
 
 CPPPATH = [cwd]
